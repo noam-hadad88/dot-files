@@ -27,16 +27,14 @@ nmap <F3>     :NERDTreeFind<CR>
 " fzf-vim config
 nmap F        :Files<CR>
 nmap @        :Rg <C-R><C-W><CR>
-nmap <C-f>    :Btags<CR>
+nmap <C-f>    :BTags<CR>
 nmap <M-f>    :Tags<CR>
 nmap <C-b>    :Buffers<CR>
 
 " easy-motion configs
 nmap ;        <Plug>(easymotion-prefix)
 nmap ;;       <Plug>(easymotion-s2)
-nmap ''       <Plug>(easymotion-t2)
 nmap ;;;      <Plug>(easymotion-sn)
-nmap '''      <Plug>(easymotion-tn)
 let g:EasyMotion_smartcase = 1
 
 " tmux-navigator config
