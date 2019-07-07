@@ -13,6 +13,9 @@ call plug#begin('~/.vim/plugged')
   Plug 'dracula/vim', { 'as': 'dracula' }
 call plug#end()
 
+" enable dracula
+colorscheme dracula
+
 " Airline config
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='dracula'
@@ -51,8 +54,6 @@ nmap ttk       :tabnext<CR>
 nmap ttj       :tabprev<CR>
 
 
-syntax on
-
 " Section: Moving around, searching, patterns, and tags
 set smartcase
 set incsearch
@@ -67,9 +68,9 @@ set sidescrolloff=5
 " Section: Editing text and indent
 
 set textwidth=78
-set backspace=2
+"set backspace=2
 set virtualedit=block
-set smarttab
+"set smarttab
 set expandtab
 set tabstop=4
 set autoindent
